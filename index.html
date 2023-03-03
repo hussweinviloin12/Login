@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Design by foolishdeveloper.com -->
+  <link rel="icon" href="lo.jpg">
+    <title>Glassmorphism login Form Tutorial in html css</title>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" media="screen" href="styel.css">
+</head>
+<body>
+    <div class="Logbox">
+        <img src="avter1.jpg" alt="avterimges" class="avter"/>
+        <h2>Sign Here</h2>
+        <form action="http://localhost:3001/user/sign" method="POST" >
+      
+         <h4><%=  typeof error != 'undefined' ? error : '' %></h4> 
+         <label for="email">email</label>
+         <input type="email" placeholder="Enter your Email" id="email" name="email">
+         <label for="password" >Password</label>
+         <input type="password" placeholder="Enter your password" id="password" name="password">
+ 
+         <input type="submit" name="" value="Sign In" ></input>
+         <a href="#">Lost your password </a><br>
+         <a href="#"> Dont have account</a>
+
+         <div class="social">
+           <span class="go"><i class="fab fa-google"></i>  Google</span>
+           <span class="fb"><i class="fab fa-facebook"></i>  Facebook</span>
+         </div>
+         <center><a href="/login" id="cover">login</a></center>
+     </form>
+    </div>
+    
+</body>
+</html>
