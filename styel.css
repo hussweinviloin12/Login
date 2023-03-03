@@ -1,0 +1,114 @@
+body{
+ margin: 0%;
+ padding: 0;
+ background-size: cover;
+ font-family: sans-serif;
+ background-image: url('lo.jpg');
+ background-position: center;
+}
+.Logbox{
+ width:320px ;
+ height: 420px;
+ background: #000;
+ position: absolute;
+ 
+ color: #fff;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ box-sizing: border-box;
+ padding: 40px 30px;
+}
+.avter{
+ width: 80px;
+ height: 80px;
+ border-radius: 50%;
+ position: absolute;
+ top: -50px;
+left: calc(50% - 50px);
+}
+h2{
+ margin: 0%;
+ padding: 0 0 20px;
+ text-align: center;
+ font-size: 22px;
+}
+.Logbox label{
+ padding: 0%;
+ margin: 0;
+ font-weight: bold;
+}
+.Logbox input{
+ width: 100%;
+ margin-bottom: 20px ;
+}
+.Logbox input[type="email"],input[type="password"]{
+ border: none;
+ border-bottom: 2px solid #fff;
+ outline: none;
+ height: 40px;
+ background: transparent;
+ font-size: 16px;
+ color: lightblue;
+ transition-delay: 1s;
+
+}
+
+.Logbox input[type="submit"]{
+border: none;
+outline: none;
+height: 30px;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 5px;
+font-size: 16px;
+background: rgb(208, 217, 101);
+color: cornsilk;
+transition-duration: 1.5s;
+}
+.Logbox input[type="submit"]:hover{
+background:lightgrey ;
+color: rgb(182, 25, 239);
+border-radius: 20px;
+cursor: pointer;
+}
+.Logbox a{
+ text-decoration: none;
+ color: darkgray;
+ font-size: 14px;
+}
+.Logbox a:hover{
+
+ color: rgb(77, 61, 229);
+ font-size: 16px;
+}
+.social{
+ margin-top: 4px;
+
+}
+.fa-google{
+color: yellow;
+}
+.fa-facebook{
+ color: rgb(46, 87, 223);
+ }
+  #cover{
+   padding: 5px;
+  font-size: 20px;
+  font-weight: 400;
+  transition-duration: 2s;
+
+  
+ }
+ #cover:hover {
+
+transform: translate(30px);
+ color: white;
+ font-weight: 700;
+ letter-spacing: 2px;
+ }
+ .Logbox input[type="email"],
+input[type="password"]:hover{
+ border-bottom: 2px solid #6a0d54;
+
+
+}
